@@ -20,6 +20,22 @@ html(lang='pt-br')
 
   body
     main.main
+      .main__text
+        img.main__text__title(src='assets/img/logo_white.svg', alt='Front-end Week São Paulo')
+        span.main__text__date
+          | De 7 a 14 de julho
+
+      form.main__mailbox(action="" method="" name="mail-catcher")
+
+        label.main__mailbox__label.main__mailbox__email(for="email")
+          | Inscreva-se para mais informações e novidades!
+        
+        input.main__mailbox__input.main__mailbox__email(placeholder="E-mail" id="email"  type="email" maxlength="70" name="" required)
+
+        button.main__mailbox__button.main__mailbox__send(type="submit")
+          img.main__mailbox__send__img(src='assets/img/send_arrow.svg', alt='Enviar')
+
+
     sidebar.sidebar
 
 
@@ -32,5 +48,4 @@ html(lang='pt-br')
   //- ===================================
   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css')
   link(rel='stylesheet', href='assets/css/style.css')
-
-
+  link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:400,500,900')

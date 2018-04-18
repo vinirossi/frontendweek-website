@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Real-DesktopHD" transform="translate(-809.000000, -854.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Main">
+                <g id="SignUp" transform="translate(425.000000, 806.000000)">
+                    <g id="SendButton" transform="translate(357.000000, 34.000000)">
+                        <path d="M47.8999951,21.6839738 L30.7555942,21.6839738 L36.57792,15.8616481 C36.9921296,15.4295146 36.9848877,14.7455313 36.5616213,14.3222649 C36.1383549,13.8989985 35.4543716,13.8917566 35.0222381,14.3059662 L27.322204,22.0060003 C26.8927061,22.4354761 26.892583,23.1317795 27.321929,23.5614071 L35.0219631,31.2614412 C35.2280844,31.4680965 35.5080644,31.5840868 35.7999416,31.5837426 C36.2449596,31.5840277 36.6462848,31.3160838 36.8166244,30.9049566 C36.986964,30.4938295 36.8927379,30.0205671 36.57792,29.7060343 L30.7553192,23.8839836 L47.8999951,23.8839836 C48.507511,23.8839836 49,23.3914946 49,22.7839787 C49,22.1764628 48.507511,21.6839738 47.8999951,21.6839738 Z" id="Shape" transform="translate(38.000000, 22.791872) scale(-1, 1) translate(-38.000000, -22.791872) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
