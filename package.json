@@ -1,12 +1,12 @@
 {
-  "name": "grunt-project-boilerplate",
-  "version": "1.3.0",
-  "description": "Files and basic configuration for new projects using grunt, pug, and sass",
-  "url": "",
+  "name": "few2k18",
+  "version": "1.0.0",
+  "description": "Website for week of events about front-end dev in Sao Paulo",
+  "url": "http://frontendweek.com.br/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardogouveia3/grunt-project-boilerplate"
+    "url": "https://github.com/frontendweek/frontendweek-website"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

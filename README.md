@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="<-- LOGO -->" width="100">
+  <img src="assets/img/logo.svg" width="100">
 </p>
 
-# My Grunt Project Boilerplate
+# Front-end Week 2k18
 
-[Access the website](<-- URL -->)
+[Access the website](http://frontendweek.com.br/)
 
 This project uses:
 - [Pug](https://pugjs.org/)
@@ -24,8 +24,8 @@ First of all, install the dependencies to run this boilerplate.
 ```sh
 
 # Clone this repository
-git clone git@github.com:ricardogouveia3/<-- REPO -->
-cd <-- REPO -->
+git clone git@github.com:frontendweek/frontendweek-website.git
+cd frontendweek-website.git
 
 # install dependencies
 npm install
@@ -53,10 +53,6 @@ After that, you should be good to go :)
 ```
 These structure will change during the project.
 
-### Code Standarts
-
-<-- CODE STANDART -->
-
 
 ### Tasks
 
@@ -76,4 +72,4 @@ These structure will change during the project.
 
 ## License
 
-[MIT License](http://ricardogouveia3.mit-license.org/) © Ricardo Álvaro Gouveia Gomes Filho
+MIT License
