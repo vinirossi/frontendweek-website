@@ -13,11 +13,19 @@ html
 
 body
   background-color: $white
+  display: flex
+  height: 100vh
   max-width: 100%
   min-height: 100%
   overflow-x: hidden
-  overflow-y: auto
+  overflow-y: hidden
   width: 100vw
+
+  @media (max-width: 900px)
+    flex-wrap: wrap
+    height: unset
+    overflow-y: auto
+
 
 a
   text-decoration: none
