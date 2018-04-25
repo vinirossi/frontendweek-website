@@ -1,0 +1,81 @@
+.sidebar
+  background-color: $main-gray
+  display: flex
+  flex-wrap: wrap
+  height: 100vh
+  justify-content: center
+  margin: 0
+  max-height: 100%
+  min-width: 300px
+  padding: 2em
+  text-align: center
+  width: 25%
+
+  @media (max-width: 900px)
+    height: unset
+    width: 100%
+
+
+.sidebar__title
+  color: $white
+  font-size: 1.5em
+  letter-spacing: 1.5px
+  text-transform: uppercase
+
+
+.sidebar__days
+  align-content: space-between
+  display: flex
+  flex-wrap: wrap
+  height: 90%
+  padding-bottom: 10%
+  text-align: left
+  width: 100%
+
+.sidebar__days__single-day
+  min-height: 100px
+  width: 100%
+
+.sidebar__days__single-day__header
+  background-color: $header-gray
+  text-align: center
+  width: 100%
+
+.sidebar__days_monday__title
+  color: $main-gray
+  font-size: 1em
+  padding: 3px 0
+  text-transform: uppercase
+
+.sidebar__days__single-day__meetup
+  color: $white
+  font-size: 1em
+  font-weight: 500
+  margin-left: 2ch
+  text-decoration: none
+  transition: opacity .3s ease-in-out
+
+  &:hover
+    opacity: .6
+
+.sidebar__days__single-day__meetup__color
+  background-color: $white
+  display: inline-block
+  height: 1.5ch
+  margin-right: 1ch
+  width: 1.5ch
+    
+.sidebar__days__single-day__meetup__color_JS-SP
+  background-color: $js-sp
+.sidebar__days__single-day__meetup__color_CSS-SP
+  background-color: $css-sp
+.sidebar__days__single-day__meetup__color_VueJS-SP
+  background-color: $vuejs-sp
+.sidebar__days__single-day__meetup__color_HTML-SP
+  background-color: $html-sp
+.sidebar__days__single-day__meetup__color_React-SP
+  background-color: $react-sp
+.sidebar__days__single-day__meetup__color_Frontend-SP
+  background-color: $frontend-sp
+.sidebar__days__single-day__meetup__color_FrontInSampa
+  background-color: $front-in-sampa
