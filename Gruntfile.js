@@ -15,7 +15,11 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['assets/js/modules/*.js'],
+        src: [
+          'assets/js/modules/jquery.min.js',
+          'assets/js/modules/jquery.ajaxchimp.js',
+          'assets/js/modules/index.js'
+        ],
         dest: 'assets/js/index.min.js',
       },
     },
